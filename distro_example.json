@@ -1,0 +1,491 @@
+{
+    "version": "1.0.0",
+    "discord": {
+        "clientId": "",
+        "smallImageText": "",
+        "smallImageKey": ""
+    },
+    "java": {
+        "adoptium": "https://adoptium.net/temurin/releases/?package=jdk&version=17",
+        "supported": ">=17",
+        "suggestedMajor": 18,
+        "ram": {
+            "recommended": 4096,
+            "minimum": 2048
+        }
+    },
+    "rcf": "https://api.damp11113.xyz/feed/getfeed?page=1&limit=10&service=dmb_feed",
+    "servers": [
+        {
+            "id": "example",
+            "name": "Example",
+            "description": "The example server.",
+            "icon": "",
+            "version": "1.0",
+            "address": "example.com",
+            "pre_command": {
+                "win32": "",
+                "darwin": "",
+                "linux": ""
+            },
+            "minecraftVersion": "1.20.1",
+            "discord": {
+                "shortId": "Example",
+                "largeImageText": "",
+                "largeImageKey": ""
+            },
+            "mainServer": true,
+            "autoconnect": true,
+            "modules": [
+                {
+                "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.0",
+                "name": "Minecraft Forge (lowcodelanguage)",
+                "type": "ForgeHosted",
+                "classpath": true,
+                "artifact": {
+                    "size": 7399,
+                    "MD5": "a839d5603a05491f84f6c36284ab0ea8",
+                    "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar"
+                },
+                "subModules": [
+                    {
+                    "id": "1.20.1-47.4.0",
+                    "name": "Minecraft Forge (version.json)",
+                    "type": "VersionManifest",
+                    "artifact": {
+                        "size": 16612,
+                        "MD5": "029daa8b97e10cedd4d6726a563379ab",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/versions/1.20.1-forge-47.4.0/1.20.1-forge-47.4.0.json"
+                    }
+                    },
+                    {
+                    "id": "net.minecraftforge:fmlcore:1.20.1-47.4.0",
+                    "name": "Minecraft Forge (fmlcore)",
+                    "type": "Library",
+                    "classpath": true,
+                    "artifact": {
+                        "size": 118914,
+                        "MD5": "bc798cdec9ec7eeb3354b550d5e67652",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar"
+                    },
+                    "subModules": []
+                    },
+                    {
+                    "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.0",
+                    "name": "Minecraft Forge (javafmllanguage)",
+                    "type": "Library",
+                    "classpath": true,
+                    "artifact": {
+                        "size": 16855,
+                        "MD5": "10ca1edc0a62ea799c4327bfc44e5ad6",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar"
+                    },
+                    "subModules": []
+                    },
+                    {
+                    "id": "net.minecraftforge:mclanguage:1.20.1-47.4.0",
+                    "name": "Minecraft Forge (mclanguage)",
+                    "type": "Library",
+                    "classpath": true,
+                    "artifact": {
+                        "size": 4998,
+                        "MD5": "cd3d6af64b394583aa83090915469f9e",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar"
+                    },
+                    "subModules": []
+                    },
+                    {
+                    "id": "net.minecraftforge:forge:1.20.1-47.4.0:universal",
+                    "name": "Minecraft Forge (universal jar)",
+                    "type": "Library",
+                    "classpath": false,
+                    "artifact": {
+                        "size": 2776081,
+                        "MD5": "f373b63ab9bfe53f7b35aaa425afa136",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-universal.jar"
+                    },
+                    "subModules": []
+                    },
+                    {
+                    "id": "net.minecraftforge:forge:1.20.1-47.4.0:client",
+                    "name": "Minecraft Forge (client jar)",
+                    "type": "Library",
+                    "classpath": false,
+                    "artifact": {
+                        "size": 4826828,
+                        "MD5": "1940b09c4b066287963bde17aa375cec",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-client.jar"
+                    },
+                    "subModules": []
+                    },
+                    {
+                    "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+                    "name": "Minecraft Forge (client srg)",
+                    "type": "Library",
+                    "classpath": false,
+                    "artifact": {
+                        "size": 18842082,
+                        "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+                    },
+                    "subModules": []
+                    },
+                    {
+                    "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+                    "name": "Minecraft Forge (client slim)",
+                    "type": "Library",
+                    "classpath": false,
+                    "artifact": {
+                        "size": 12592249,
+                        "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+                    },
+                    "subModules": []
+                    },
+                    {
+                    "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+                    "name": "Minecraft Forge (client extra)",
+                    "type": "Library",
+                    "classpath": false,
+                    "artifact": {
+                        "size": 10436626,
+                        "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+                    },
+                    "subModules": []
+                    },
+                    {
+                    "id": "cpw.mods:securejarhandler:2.1.10",
+                    "name": "Minecraft Forge (securejarhandler)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 88749,
+                        "MD5": "d9ff48d1c68388270388b803fa42611e",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+                    }
+                    },
+                    {
+                    "id": "org.ow2.asm:asm:9.7.1",
+                    "name": "Minecraft Forge (asm)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 126093,
+                        "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+                    }
+                    },
+                    {
+                    "id": "org.ow2.asm:asm-commons:9.7.1",
+                    "name": "Minecraft Forge (asm-commons)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 73459,
+                        "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+                    }
+                    },
+                    {
+                    "id": "org.ow2.asm:asm-tree:9.7.1",
+                    "name": "Minecraft Forge (asm-tree)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 51939,
+                        "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+                    }
+                    },
+                    {
+                    "id": "org.ow2.asm:asm-util:9.7.1",
+                    "name": "Minecraft Forge (asm-util)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 94519,
+                        "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+                    }
+                    },
+                    {
+                    "id": "org.ow2.asm:asm-analysis:9.7.1",
+                    "name": "Minecraft Forge (asm-analysis)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 35126,
+                        "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+                    }
+                    },
+                    {
+                    "id": "net.minecraftforge:accesstransformers:8.0.4",
+                    "name": "Minecraft Forge (accesstransformers)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 77756,
+                        "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+                    }
+                    },
+                    {
+                    "id": "org.antlr:antlr4-runtime:4.9.1",
+                    "name": "Minecraft Forge (antlr4-runtime)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 337868,
+                        "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+                    }
+                    },
+                    {
+                    "id": "net.minecraftforge:eventbus:6.0.5",
+                    "name": "Minecraft Forge (eventbus)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 53985,
+                        "MD5": "2a6245210b446b2144071e71ca13432b",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+                    }
+                    },
+                    {
+                    "id": "net.minecraftforge:forgespi:7.0.1",
+                    "name": "Minecraft Forge (forgespi)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 29831,
+                        "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+                    }
+                    },
+                    {
+                    "id": "net.minecraftforge:coremods:5.2.4",
+                    "name": "Minecraft Forge (coremods)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 31872,
+                        "MD5": "5295505357ba9b98450c5e3121f82191",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+                    }
+                    },
+                    {
+                    "id": "cpw.mods:modlauncher:10.0.9",
+                    "name": "Minecraft Forge (modlauncher)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 130343,
+                        "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+                    }
+                    },
+                    {
+                    "id": "net.minecraftforge:unsafe:0.2.0",
+                    "name": "Minecraft Forge (unsafe)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 2834,
+                        "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+                    }
+                    },
+                    {
+                    "id": "net.minecraftforge:mergetool:1.1.5:api",
+                    "name": "Minecraft Forge (mergetool)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 2572,
+                        "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+                    }
+                    },
+                    {
+                    "id": "com.electronwill.night-config:core:3.6.4",
+                    "name": "Minecraft Forge (core)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 199834,
+                        "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+                    }
+                    },
+                    {
+                    "id": "com.electronwill.night-config:toml:3.6.4",
+                    "name": "Minecraft Forge (toml)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 31816,
+                        "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+                    }
+                    },
+                    {
+                    "id": "org.apache.maven:maven-artifact:3.8.5",
+                    "name": "Minecraft Forge (maven-artifact)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 58077,
+                        "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+                    }
+                    },
+                    {
+                    "id": "net.jodah:typetools:0.6.3",
+                    "name": "Minecraft Forge (typetools)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 18281,
+                        "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+                    }
+                    },
+                    {
+                    "id": "net.minecrell:terminalconsoleappender:1.2.0",
+                    "name": "Minecraft Forge (terminalconsoleappender)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 15977,
+                        "MD5": "679363fa893293791e55a21f81342f87",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+                    }
+                    },
+                    {
+                    "id": "org.jline:jline-reader:3.12.1",
+                    "name": "Minecraft Forge (jline-reader)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 150765,
+                        "MD5": "a2e7b012cd9802f83321187409174a94",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+                    }
+                    },
+                    {
+                    "id": "org.jline:jline-terminal:3.12.1",
+                    "name": "Minecraft Forge (jline-terminal)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 211712,
+                        "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+                    }
+                    },
+                    {
+                    "id": "org.spongepowered:mixin:0.8.5",
+                    "name": "Minecraft Forge (mixin)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 1089277,
+                        "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+                    }
+                    },
+                    {
+                    "id": "org.openjdk.nashorn:nashorn-core:15.4",
+                    "name": "Minecraft Forge (nashorn-core)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 2167292,
+                        "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+                    }
+                    },
+                    {
+                    "id": "net.minecraftforge:JarJarSelector:0.3.19",
+                    "name": "Minecraft Forge (JarJarSelector)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 17374,
+                        "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+                    }
+                    },
+                    {
+                    "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+                    "name": "Minecraft Forge (JarJarMetadata)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 15895,
+                        "MD5": "9633546d299d4282ca68d10582be1c8f",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+                    }
+                    },
+                    {
+                    "id": "cpw.mods:bootstraplauncher:1.1.2",
+                    "name": "Minecraft Forge (bootstraplauncher)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 8284,
+                        "MD5": "48f5255aa337344c467c0150d347813d",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+                    }
+                    },
+                    {
+                    "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+                    "name": "Minecraft Forge (JarJarFileSystems)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 32195,
+                        "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+                    }
+                    },
+                    {
+                    "id": "net.minecraftforge:fmlloader:1.20.1-47.4.0",
+                    "name": "Minecraft Forge (fmlloader)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 267079,
+                        "MD5": "5b26aba9f44796d54094022c1e73a49e",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.0/fmlloader-1.20.1-47.4.0.jar"
+                    }
+                    },
+                    {
+                    "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.0",
+                    "name": "Minecraft Forge (fmlearlydisplay)",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 170517,
+                        "MD5": "68747d96f635b0a0dc9e070d3596a562",
+                        "url": "https://cdn.damp11113.xyz/dmb/fo1201/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.0/fmlearlydisplay-1.20.1-47.4.0.jar"
+                    }
+                    }
+                ]
+                }
+            ],
+            "game_file": {
+                "files": {
+                    "mods": {
+                        "url": "https://cdn.damp11113.xyz/dmb/instances/example/content/mods.zip?dl=1",
+                        "sha256": "fe6c7429cab953eb2b6411b059c753aef5372ece746af7956bcd04366574574c",
+                        "version": "1.0",
+                        "remove_folder_before_update": true
+                    }
+                },
+                "content_checker": {
+                    "mods": {
+                        "allow_external_content": false,
+                        "update_if_checksum_mismatch": true,
+                        "sha256": {
+                            "ashvehicle-2.6-SNAPSHOT.jar": "daf5e5ebf63960b07df6863f7701c9a03958cc72e14dfac953e9e92a77410097",
+                            "carryon-forge-1.20.1-2.1.2.7.jar": "d7470921fc5ff988788d43409083f62478aecc91f4b81d7e6b63c80c933d4613",
+                            "cloth-config-11.1.136-forge.jar": "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2",
+                            "CMDCam_FORGE_v2.0.20_mc1.20.jar": "c33fc288f63d02c4d2bed5314eb9755641a9ad7f047c358b4dc80363f2bfa2d1",
+                            "controllable-forge-1.20.1-0.21.7.jar": "abcbb3eb57f624ff973ecece786a3ba05353f6e2dbbe1d597da2d3b65d9d5410",
+                            "CreativeCore_FORGE_v2.10.34_mc1.20.1.jar": "15686917f3b704bd2f2a0bd2fd413043eca41b72029f1dfd5904f1eae4787729",
+                            "curios-forge-5.14.1+1.20.1.jar": "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f",
+                            "embeddium-0.3.31+mc1.20.1.jar": "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb",
+                            "Essential_1-3-8-3_forge_1-20-1.jar": "e176f3400cf3d52ba9c38a76869a93b5bff65a06922c57230dfa5b4bed957b3e",
+                            "figura-0.1.5+1.20.1-forge-mc.jar": "f1820f219aefcf1a75cc203cd2a2115bc06696bf9e18b38f8aef308062c532d3",
+                            "framework-forge-1.20.1-0.7.12.jar": "28ade2da0795ca36de2925e14cb5fe6b4e51ae84c149352fd9690951fe1baf87",
+                            "geckolib-forge-1.20.1-4.7.2.jar": "13926e4c3f64dcf67109ed3e3c85d6eb9ba8089eaa308de17eb15d2f846e3f3d",
+                            "mcsp-0.0.85.jar": "b5de3e9b8a36d5fd1c4047638dd39f76981a7776cf45b38ad3b529d4cec066ac",
+                            "MouseTweaks-forge-mc1.20.1-2.25.1.jar": "6c27d16aa715ac6613a55fc463739e2c7b78279e4e4c4cede299e4a2d4a70f08",
+                            "oculus-mc1.20.1-1.8.0.jar": "0945df0cba0f62b3901dd80c3268e5311b770ece78c78037a45db12ac0425fef",
+                            "plasmovoice-forge-1.20.1-2.1.4.jar": "48e4c9eeef3f7b32d19c86acee173ad36198e6c392264babfaae84e9880d572a",
+                            "sodiumdynamiclights-forge-1.0.10-1.20.1.jar": "dff5325abb58c0c8526dffb80e764188bde045fd02ca6ed5e2bb76f0897d46f4",
+                            "sodiumoptionsapi-forge-1.0.10-1.20.1.jar": "37ec0b6248f04e856e6e5ba2066c4ded9981ce128282a9b45cdb10b67b9c8415",
+                            "superbwarfare-1.20.1-0.8.2-1a378dc24.jar": "b814f951725ea9321ca1374158017b09e0de5b2b0bdb25bb4be4582311cabe66",
+                            "usaarmyarmor-1.6.0-forge-1.20.1.jar": "d25a37d95780074a354c6810780b0165397bb813efa140d3646191b0d68c6bcb",
+                            "WI-Zoom-1.5-MC1.20.1-Forge.jar": "76a7b8e701d0ef27b1836a300ebd65b48193d211c0032511c943472fa653d883"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
