@@ -4,7 +4,7 @@ Based on [Helios Launcher](https://github.com/dscalzi/HeliosLauncher) but more m
 
 # This project is use in private roleplay server before.
 
-This project is closed source for content checker feature but now that project didn't pay any money for this modify version. So I think this feature is useful for everyone that want to manage and control content for client.
+While the content checker feature of this project was initially closed source, the lack of ongoing funding for this modified version has led us to believe it would be highly beneficial to make it open source. We think this feature could be incredibly useful for anyone needing to manage and control client-related content.
 
 ## Development
 
