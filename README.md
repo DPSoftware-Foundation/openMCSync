@@ -4,7 +4,7 @@ Based on [Helios Launcher](https://github.com/dscalzi/HeliosLauncher) but more m
 
 # This project is use in private roleplay server before.
 
-This project is closed source for content checker feature but now that project didn't pay any money for this modify version. So I think this feature is useful fo
+This project is closed source for content checker feature but now that project didn't pay any money for this modify version. So I think this feature is useful for everyone that want to manage and control content for client.
 
 ## Development
 
@@ -18,8 +18,8 @@ This section details the setup of a basic developmentment environment.
 
 **Clone and Install Dependencies**
 ```console
-> git clone https://github.com/dscalzi/HeliosLauncher.git
-> cd HeliosLauncher
+> git clone https://github.com/DPSoftware-Foundation/openMCSync.git
+> cd openMCSync
 > npm install
 ```
 
